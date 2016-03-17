@@ -1,0 +1,7 @@
+core_hacking:
+    resource: "@CoreHackingBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

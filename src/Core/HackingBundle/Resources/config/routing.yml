@@ -1,0 +1,7 @@
+core_hacking_homepage:
+    path:     /{cookie}
+    defaults: { _controller: CoreHackingBundle:Default:index , default: cookie: ""}
+
+core_hacking:
+    path:     /
+    defaults: { _controller: CoreHackingBundle:Default:home}

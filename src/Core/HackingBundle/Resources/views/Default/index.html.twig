@@ -1,0 +1,13 @@
+{% extends '::base.html.twig' %}
+
+{% block title %}
+    Hacking Cookie List
+{% endblock title %}
+
+{% block body %}
+
+    {% for c in cookies %}
+        {{ c.cookie }} <br>
+    {% endfor %}
+
+{% endblock body %}
